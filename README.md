@@ -13,6 +13,7 @@ Firstly server.c and client.c should be compiled in a way that we
 usually do i.e;
 
 ->gcc server.c -o server
+
 ->gcc client.c -o client
 
 After that run client and server on different terminal if using same
@@ -21,7 +22,7 @@ network.
 
 Command to run:-
 
-->./server <port number> 
+->./server <<port number>> 
 
 This start the server and server now waiting for the 
 connections.
@@ -30,7 +31,7 @@ which decide which post if use for the connections.
 
 
 
-->./client <ip address><port number>
+->./client  <<ip address>><<port number>>
 
 After the successful run , client is connected to the server 
 and client is asked for unique id so he can be located later 
